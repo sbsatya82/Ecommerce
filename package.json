@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/index.js",
     "dev": "nodemon backend/index.js",
-    "render-postuild" : "NPM_CONFIG_PRODUCTION = false && npm install --prefix frontend && npm run build --prefix frontend"
+    "build" : " npm install --prefix ./frontend && npm run build --prefix ./frontend && npm install"
   },
   "keywords": [
     "ahts"
