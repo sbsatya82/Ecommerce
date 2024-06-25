@@ -1,0 +1,53 @@
+.order-failed {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin: 15rem auto;
+}
+
+.failure-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-icon {
+  color: #f44336;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.animate-icon {
+  animation: shake 1.5s infinite;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: scale(2);
+  }
+  50%{
+    transform: scale(3);
+  }
+}
+
+.failure-message h1 {
+  color: #f44336;
+  margin: 2rem auto;
+}
+.failure-message p{
+  margin-bottom: 2rem ;
+}
+
+.retry-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.retry-button:hover {
+  background-color: #e53935;
+}

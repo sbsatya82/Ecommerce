@@ -1,0 +1,108 @@
+/* src/components/dashboard/Dashboard.css */
+.dashboard-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 4rem;
+}
+
+.dashboard-container:first-child{
+  padding: 10px;
+}
+
+.dashboard-container:first-child p{
+  font-size: 3rem;
+  font-family: roboto;
+  font-weight: 500;
+}
+.dashboard-container total-amount{
+  background-color: blue;
+}
+.chart-container {
+  margin-top: 20px;
+}
+
+/* src/components/sidebar/Sidebar.css */
+.icon-large {
+  font-size: 2rem;
+}
+.icon-medium {
+  font-size: 1.5rem;
+}
+
+/* src/components/dashboard/Dashboard.css */
+.dashboard-container {
+  padding: 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.total-amount {
+  background-color: #1976d2;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.stats-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  row-gap: 1rem;
+}
+
+.stat-box {
+  background-color: #f9c74f;
+  padding: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+.stats-container> a:first-child{
+  background-color: #f94f4f;
+}
+
+
+
+.chart-container {
+  margin: 3rem auto;
+  width: 90rem;
+  height: 40vmax;
+  display: flex;
+  justify-content: center;;
+}
+
+.doughnut-container{
+  width: 30vmax;
+  margin: 2rem auto;
+}
+
+
+
+.css-1ygcj2i-MuiTableCell-root {
+  font-size: 1.5rem !important;
+  color: #fff !important;
+}
+
+.css-1ex1afd-MuiTableCell-root{
+  font-size: 1.rem !important;
+}

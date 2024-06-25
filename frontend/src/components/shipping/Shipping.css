@@ -1,0 +1,14 @@
+h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+select{
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 1.5rem 0;
+  text-indent: 1rem;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}

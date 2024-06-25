@@ -1,0 +1,15 @@
+.admin-order{
+  margin-top: 5rem !important;
+}
+
+.admin-order h3{
+  font-size: 3rem;
+}
+
+.update-status{
+  display: flex;
+  justify-content: center;
+}
+.update-status button{
+  font-size: 1.5rem;
+}

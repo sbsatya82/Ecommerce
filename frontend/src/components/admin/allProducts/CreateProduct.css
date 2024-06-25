@@ -1,0 +1,71 @@
+.dashboard-container h1 {
+  padding: 1rem 0 !important;
+  margin: 0 !important;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: roboto;
+  font-weight: 600;
+}
+.dashboard-container .custom-input{
+  margin: 1rem auto;
+}
+
+.custom-autocomplete-option{
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.custom-autocomplete-option:hover{
+  background-color: #c5c5c53f;
+}
+.dashboard-container label {
+  font-size: 1.5rem !important;
+  font-family: roboto !important;
+}
+
+.dashboard-container .custom-input .MuiInputLabel-root {
+  font-size: 2rem !important;
+  font-family: roboto !important;
+  transition: color 0.3s ease;
+}
+
+.dashboard-container .custom-input .MuiInputLabel-root.Mui-focused {
+  color: green !important;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.dashboard-container .custom-input .MuiInputBase-input {
+  font-size: 1.5rem !important;
+  font-family: roboto !important;
+}
+
+.dashboard-container .custom-input .MuiInput-underline:before {
+  border-bottom-color: rgba(0, 0, 0, 0.42);
+}
+
+.dashboard-container .custom-input .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom-color: rgba(0, 0, 0, 0.87);
+}
+
+.dashboard-container .custom-input .MuiInput-underline:after {
+  border-bottom-color: green !important;
+}
+
+.dashboard-container .custom-input .MuiInput-underline.Mui-focused:after {
+  border-bottom-color: green !important;
+}
+
+.dashboard-container .create-product-btn{
+background-color: gray;
+font-size: 1.5rem;
+padding: .7rem 2rem;
+}
+.dashboard-container .create-product-btn:hover{
+  background-color: #2b2b2b;
+}
+.dashboard-container .file-choose-btn:hover{
+  background-color: #2b2b2bd6;
+  color: #fff;
+}
