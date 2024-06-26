@@ -58,6 +58,10 @@ const Login = () => {
     }
   };
 
+  if (loading) {
+    return <Loader/>;
+  }
+
   return (
     <div className="container">
       <div className="login-form">
